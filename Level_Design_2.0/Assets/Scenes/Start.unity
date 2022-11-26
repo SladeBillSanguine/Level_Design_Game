@@ -396,6 +396,10 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6526827991797415547, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
+      propertyPath: _gameScene
+      value: Julian`s Level
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
 --- !u!1 &1748043777

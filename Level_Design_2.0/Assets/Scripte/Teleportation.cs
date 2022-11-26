@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Teleportation : MonoBehaviour
 {
-    [SerializeField] GameObject yPosition;
+    [SerializeField] float yPosition;
     [SerializeField] GameObject Player;
 
-    public void newPosition()
+    public void NewPosition()
     {
-       Player.transform.position = new Vector3(Player.transform.position.x, yPosition.transform.position.y, Player.transform.position.z);
+       Player.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y + yPosition, Player.transform.position.z);
     }
 }
