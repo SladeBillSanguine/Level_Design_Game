@@ -558,8 +558,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79151428126ac7743b33baa9c0529810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yPosition: 10
+  yPosition: 500
   player: {fileID: 299371357}
+  playerController: {fileID: 299371358}
 --- !u!1001 &299371356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -605,7 +606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6556307555316582679, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.17
+      value: -7.28
       objectReference: {fileID: 0}
     - target: {fileID: 6556307555316582679, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -651,7 +652,12 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
 --- !u!4 &299371357 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 6556307555316582679, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 937451010987979973, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+  m_PrefabInstance: {fileID: 299371356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!143 &299371358 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 453084650579209845, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
   m_PrefabInstance: {fileID: 299371356}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &446478163
