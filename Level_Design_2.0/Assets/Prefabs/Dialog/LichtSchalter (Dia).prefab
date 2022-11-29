@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3802962198696993191}
   - component: {fileID: 3802962198696993192}
   m_Layer: 0
-  m_Name: Dia Test
+  m_Name: LichtSchalter (Dia)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
