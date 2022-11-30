@@ -22,9 +22,13 @@ namespace Buntility.GameMenu
         [SerializeField] GameObject _graphics_MainMenu;
         [SerializeField] TextMeshProUGUI _continueButton;
 
+        [SerializeField] GameStateHandler _gameStateHandler;
+
+        [SerializeField] GameObject _graphics_Levels;
         [SerializeField] GameObject _graphics_Options;
         [SerializeField] GameObject _graphics_Credits;
-
+        
+       
         EMenuState _menuState;
 
         Action _startGame;
@@ -60,6 +64,11 @@ namespace Buntility.GameMenu
             _startGame?.Invoke();
         }
 
+        public void Levels()
+            => setupMenu(EMenuState.inLevels);
+            
+        
+
         public void Options()
             => setupMenu(EMenuState.inOptions);
 
@@ -71,6 +80,39 @@ namespace Buntility.GameMenu
             setupMenu(EMenuState.closed);
             _quitGame?.Invoke();
         }
+
+        //------------------------------
+        //Levels
+
+        public void Tutorial()
+        {
+            _gameStateHandler.SetGameScene("Tutorial");
+            NewGame();
+        }
+        public void JuliansLevel()
+        {
+            _gameStateHandler.SetGameScene("Julian`s Level");
+            NewGame();
+        }
+        public void AliciasLevel()
+        {
+            _gameStateHandler.SetGameScene("Alicia's Level");
+            NewGame();
+        }
+
+        public void LisasLevel()
+        {
+            _gameStateHandler.SetGameScene("Lisa´s Level");
+            NewGame();
+        }
+
+        public void JuliusLevel()
+        {
+            //muss noch geändert werden
+            _gameStateHandler.SetGameScene("Lisa´s Level");
+            NewGame();
+        }
+
 
 
         // -----------------------------
@@ -88,8 +130,12 @@ namespace Buntility.GameMenu
                 case EMenuState.inMain:
                     openMenu();
                     _graphics_MainMenu?.SetActive(true);
+                    _graphics_Levels?.SetActive(false);
                     setContinueButtonText();
                     setCursorState(true);
+                    return;
+                case EMenuState.inLevels:
+                    _graphics_Levels!?.SetActive(true);
                     return;
                 case EMenuState.inOptions:
                     _graphics_Options?.SetActive(true);
@@ -150,6 +196,7 @@ namespace Buntility.GameMenu
     {
         closed,
         inMain,
+        inLevels,
         inOptions,
         inCredits
     }

@@ -37,6 +37,8 @@ namespace Buntility.GameMenu
             GameStateHub.SetGameState(EGameState.inStartUp);
         }
 
+        
+
         private void Start()
         {
             _mainMenu.SetupCoreAction(goToGame, quitApplication);
@@ -53,7 +55,11 @@ namespace Buntility.GameMenu
             
         }
 
-
+        public void SetGameScene(string newGameScene)
+        {
+            _gameScene = newGameScene;
+            Debug.Log("changed"+ _gameScene);
+        }
 
         // ---------------------------------------
         // DO_CORE_ROUTINES
