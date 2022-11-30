@@ -30,6 +30,20 @@ namespace Buntility.DialogueSystem
         static Action<bool> _dialogueStarted;
 
 
+        static void setCursorState(bool inState)
+        {
+            Cursor.visible = inState;
+
+            if (inState)
+            {
+                Cursor.lockState = CursorLockMode.None;
+            }
+            else
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+        }
+
         // -----------------------------------------
         // PUBLIC_ACCESSORS
         #region publicAccessors
@@ -65,7 +79,8 @@ namespace Buntility.DialogueSystem
             _curDiaElement = inDiaElement;
 
             //Debug.Log($"DiaSys handling {_curDiaElement.name}");
-
+            Time.timeScale = 0;
+            setCursorState(true);
             _curDiaElement.StartEvent();
             _curDiaElement.TriggerCommands();
 
@@ -136,7 +151,8 @@ namespace Buntility.DialogueSystem
         {
             if (!_activeDialogue)
                 return;
-
+            Time.timeScale = 1;
+            setCursorState(false);
             _dialogueStarted?.Invoke(false);
             _activeDialogue = false;
             _curDiaElement = null;
