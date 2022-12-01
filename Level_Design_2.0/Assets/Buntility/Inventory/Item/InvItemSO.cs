@@ -7,6 +7,7 @@
  */
 
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Buntility.Inventory.Util
 {
@@ -20,6 +21,7 @@ namespace Buntility.Inventory.Util
 
         public override void SetupUI(GameObject inObj)
         {
+            inObj.GetComponent<Image>().sprite = _sprite;
             Debug.Log("SetupItem");
         }
 
