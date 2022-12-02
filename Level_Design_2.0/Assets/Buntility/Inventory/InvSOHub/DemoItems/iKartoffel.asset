@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Kartoffel
   _desc: Lecker!
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: b65e65881f103bf4a814ae961b7e6c42, type: 3}

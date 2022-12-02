@@ -27,8 +27,9 @@ namespace Buntility.GameMenu
         [SerializeField] GameObject _graphics_Levels;
         [SerializeField] GameObject _graphics_Options;
         [SerializeField] GameObject _graphics_Credits;
-        
-       
+        [SerializeField] GameObject _graphics_Inventory;
+
+
         EMenuState _menuState;
 
         Action _startGame;
@@ -126,11 +127,13 @@ namespace Buntility.GameMenu
                 case EMenuState.closed:
                     closeMenu();
                     setCursorState(false);
+                    _graphics_Inventory.SetActive(true);
                     return;
                 case EMenuState.inMain:
                     openMenu();
                     _graphics_MainMenu?.SetActive(true);
                     _graphics_Levels?.SetActive(false);
+                    _graphics_Inventory.SetActive(false);
                     setContinueButtonText();
                     setCursorState(true);
                     return;
@@ -158,6 +161,7 @@ namespace Buntility.GameMenu
         void setMenu(bool inState)
         {
             _graphics_CoreMenu.SetActive(inState);
+           
         }
 
         void disableAll()

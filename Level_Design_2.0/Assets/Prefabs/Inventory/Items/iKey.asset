@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 088e9b38f61fe0142a84359e1ab887a7, type: 3}
-  m_Name: Key
+  m_Name: iKey
   m_EditorClassIdentifier: 
   _name: Key
   _desc: A Key to the Basement

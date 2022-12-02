@@ -29,6 +29,8 @@ namespace Buntility.DialogueSystem
 
         static Action<bool> _dialogueStarted;
 
+        
+
 
         static void setCursorState(bool inState)
         {
@@ -79,7 +81,7 @@ namespace Buntility.DialogueSystem
             _curDiaElement = inDiaElement;
 
             //Debug.Log($"DiaSys handling {_curDiaElement.name}");
-            Time.timeScale = 0;
+            
             setCursorState(true);
             _curDiaElement.StartEvent();
             _curDiaElement.TriggerCommands();
@@ -151,7 +153,7 @@ namespace Buntility.DialogueSystem
         {
             if (!_activeDialogue)
                 return;
-            Time.timeScale = 1;
+            
             setCursorState(false);
             _dialogueStarted?.Invoke(false);
             _activeDialogue = false;
