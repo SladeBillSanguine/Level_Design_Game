@@ -10,8 +10,6 @@ public class PlayerTeleport : MonoBehaviour
     [SerializeField] float zPosition;
     [SerializeField] Transform player;
     [SerializeField] CharacterController playerController;
-    //Audio
-    [SerializeField] AudioSource teleportAudio;
 
     public void Teleport()
     {
