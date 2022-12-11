@@ -31,6 +31,8 @@ namespace Buntility.DialogueSystem
 
         
 
+        
+
 
         static void setCursorState(bool inState)
         {

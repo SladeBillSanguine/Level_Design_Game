@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: YellowJar
   _desc: 
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: fdf7df75baca4cd48b569f5f00d886ee, type: 3}

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: CyanJar
   _desc: 
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 67e35b6b80f859548a3a86c74666010b, type: 3}

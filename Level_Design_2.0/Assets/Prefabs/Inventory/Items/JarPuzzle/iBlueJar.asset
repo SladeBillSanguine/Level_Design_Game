@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: BlueJar
   _desc: 
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: c632d7190d37e594589365901d8919db, type: 3}

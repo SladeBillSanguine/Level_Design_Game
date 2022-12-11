@@ -32,12 +32,15 @@ namespace Buntility.Inventory
             foreach (InvItemInstance item in inInventory)
             {
                 
-                
+                if(item.Amount > 0)
+                {
                 GameObject obj = Instantiate(inventoryContainer, inventoryTransform.transform);
                 item.SetupUI(obj);
                 obj.transform.position = new Vector3 (obj.transform.position.x, y, obj.transform.position.z);
                 y = y-35f;
                 
+                }
+               
               
             }
              
