@@ -309,7 +309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _invType: 1
   _conditions:
-  - DollProgress <= 3
+  - DollProgress <= 2
 --- !u!114 &1525490818664393355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1219,7 +1219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _invType: 1
   _conditions:
-  - DollProgress == 4
+  - DollProgress == 3
 --- !u!1 &8575598789499920256
 GameObject:
   m_ObjectHideFlags: 0

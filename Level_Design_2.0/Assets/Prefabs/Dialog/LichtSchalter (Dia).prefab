@@ -53,6 +53,7 @@ MonoBehaviour:
   _interactGraphics: {fileID: 3802962198731304267}
   _autoTriggerInRange: 0
   _hideIfInvalid: 0
+  _unsubscribeOnInteract: 0
 --- !u!135 &3802962198696993192
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -204,8 +205,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3802962200405270702}
   - component: {fileID: 3802962200405270701}
+  - component: {fileID: 5055340133269318022}
+  - component: {fileID: 8959572307886534843}
   m_Layer: 0
-  m_Name: Dialoge
+  m_Name: Teleport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -238,18 +241,72 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc6cd4789e381d54ea5f7bb8dae95592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _diaType: 0
+  _diaType: 3
   _optionText: 
   _dispIfInvalid: 1
   _header: 
-  _dialogueText: Hello
+  _dialogueText: 
   _nextDia: []
   _onStartEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5055340133269318022}
+        m_TargetAssemblyTypeName: Buntility.DialogueSystem.DiaDelay, Assembly-CSharp
+        m_MethodName: StartDiaDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8959572307886534843}
+        m_TargetAssemblyTypeName: Teleportation, Assembly-CSharp
+        m_MethodName: Teleport
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _onEndEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5055340133269318022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3802962200405270700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42748b651953b3442be82823cc53051a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _delayTime: 1
+--- !u!114 &8959572307886534843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3802962200405270700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79151428126ac7743b33baa9c0529810, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xPosition: 0
+  yPosition: 20
+  zPosition: 0
+  player: {fileID: 0}
+  playerController: {fileID: 0}
 --- !u!1 &3802962200458618452
 GameObject:
   m_ObjectHideFlags: 0
