@@ -138,6 +138,7 @@ MonoBehaviour:
   _interactGraphics: {fileID: 4967923102763395780}
   _autoTriggerInRange: 0
   _hideIfInvalid: 0
+  _unsubscribeOnInteract: 0
 --- !u!135 &6736917506341058964
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -429,7 +430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42748b651953b3442be82823cc53051a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _delayTime: 2
+  _delayTime: 1
 --- !u!1 &6736917507079268387
 GameObject:
   m_ObjectHideFlags: 0

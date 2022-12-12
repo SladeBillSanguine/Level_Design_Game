@@ -28,7 +28,7 @@ namespace Buntility.DialogueSystem
         [SerializeField] bool _autoTriggerInRange = false;
         [SerializeField] bool _hideIfInvalid = false;
 
-
+        [SerializeField] bool _unsubscribeOnInteract = false;
         // ----------------------------------
         // CONSTRUCTION
         #region constr
@@ -41,7 +41,7 @@ namespace Buntility.DialogueSystem
                 setVisibility();
                 subscribeToInventoryChanged();
             }
-                
+
         }
         private void OnDisable()
         {
@@ -89,12 +89,15 @@ namespace Buntility.DialogueSystem
             }
         }
         #endregion
-
         // ----------------------------------
         // INTERACTION
         void doInteract()
-            => _dialogueStarter.TriggerDialogue();
+        {
+            if (_unsubscribeOnInteract)
+                unsubscribeInteract();
 
+            _dialogueStarter.TriggerDialogue();
+        }
 
         // ----------------------------------
         // VISIBILITY
