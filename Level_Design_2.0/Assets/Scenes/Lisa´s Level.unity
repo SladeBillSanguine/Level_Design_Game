@@ -1123,11 +1123,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1876207801242951419, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
+      propertyPath: _unsubscribeOnInteract
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2463329703782276588, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
       propertyPath: m_Name
       value: Env
       objectReference: {fileID: 0}
-    - target: {fileID: 3373043242010312927, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
+    - target: {fileID: 0}
       propertyPath: characterController
       value: 
       objectReference: {fileID: 640320462}
@@ -1224,9 +1228,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 640320462}
     - target: {fileID: 5951998931827060833, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 640320460}
+    - target: {fileID: 5951998931827060833, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
       propertyPath: yPosition
       value: -8.8
       objectReference: {fileID: 0}
+    - target: {fileID: 5951998931827060833, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 640320462}
     - target: {fileID: 5951998931846051167, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
       propertyPath: player
       value: 
