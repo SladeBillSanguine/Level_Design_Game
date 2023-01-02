@@ -53,7 +53,7 @@ MonoBehaviour:
   _interactGraphics: {fileID: 3802962198731304267}
   _autoTriggerInRange: 0
   _hideIfInvalid: 0
-  _unsubscribeOnInteract: 0
+  _unsubscribeOnInteract: 1
 --- !u!135 &3802962198696993192
 SphereCollider:
   m_ObjectHideFlags: 0
