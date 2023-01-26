@@ -3,7 +3,12 @@ guid: 678354f7c5509f945abf17ac85dd93b6
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RustyWallLamp
+    second: {fileID: 2100000, guid: 694cc4c4a900dc2489dbf6828f7cad35, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
