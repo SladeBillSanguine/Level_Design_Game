@@ -3,7 +3,22 @@ guid: 75df30cdd7d044447960e15071e0e57f
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leg
+    second: {fileID: 2100000, guid: 1d8892a1118b5954f9b6a7ab46abca93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Seat_Base
+    second: {fileID: 2100000, guid: e16e4240018cdc9478e9abab53d486f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Seat_Material
+    second: {fileID: 2100000, guid: adcf1d7ca72ce264bad08dc53ef8bb1e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

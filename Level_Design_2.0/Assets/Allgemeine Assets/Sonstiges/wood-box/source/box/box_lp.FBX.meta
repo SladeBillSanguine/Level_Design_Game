@@ -3,7 +3,27 @@ guid: 7fc1daa3e063f714b87453453b2b0436
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b_box
+    second: {fileID: 2100000, guid: 180aefaf6372e99418fa9ef8772bef49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fb_box
+    second: {fileID: 2100000, guid: c4670683a09e5cf48adc1ba406c20a01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lr_box
+    second: {fileID: 2100000, guid: 7a457260806e08e43b75763e0d3fe579, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: t_box
+    second: {fileID: 2100000, guid: 0407150d9052b2940b406edc09c1a1f3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
