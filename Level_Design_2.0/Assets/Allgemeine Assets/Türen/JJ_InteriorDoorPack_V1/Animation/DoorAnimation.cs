@@ -14,7 +14,6 @@ public class DoorAnimation : MonoBehaviour
 
     public void PlayDoorAnimation()
     {
-        Debug.Log("Hello There");
         if(animator.GetBool("isOpen") == false)
         {
             animator.SetBool("isOpen", true);
