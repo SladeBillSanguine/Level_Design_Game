@@ -3,7 +3,12 @@ guid: 6a3148dee9701694c88dc833afd9f886
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EstatuaMat
+    second: {fileID: 2100000, guid: a712ee59dba47e24f8e12a81e3eb8f01, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

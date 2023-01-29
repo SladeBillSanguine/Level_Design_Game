@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4306966482121089290}
   m_Layer: 0
-  m_Name: Door
+  m_Name: Lisas Door Back-up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,6 +101,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4754073856193944, guid: 3865dab15f85624439f27d11cc132971, type: 3}
       propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23603418792493158, guid: 3865dab15f85624439f27d11cc132971, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1846513125466220858}
+  - component: {fileID: 143992257938892885}
   m_Layer: 0
   m_Name: Vines_Prefab
   m_TagString: Untagged
@@ -32,6 +33,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &143992257938892885
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5630762506053319643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.8373642, y: 2.9141827, z: 0.08416033}
+  m_Center: {x: -0.2501297, y: 1.6280951, z: -1.4546587}
 --- !u!1001 &578840998587167514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61,7 +75,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a495dbfa5e274fa47bb9bc5a9b8749fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.5424805
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a495dbfa5e274fa47bb9bc5a9b8749fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -69,7 +83,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a495dbfa5e274fa47bb9bc5a9b8749fd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.4187264
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a495dbfa5e274fa47bb9bc5a9b8749fd, type: 3}
       propertyPath: m_LocalRotation.w
