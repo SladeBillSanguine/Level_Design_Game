@@ -57,7 +57,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8948011958535790969}
         m_TargetAssemblyTypeName: LoadNextLevel, Assembly-CSharp
-        m_MethodName: LoadScene3
+        m_MethodName: LoadLevel3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -162,7 +162,7 @@ MonoBehaviour:
   _optionText: 
   _dispIfInvalid: 1
   _header: 
-  _dialogueText: DialogueText
+  _dialogueText: 
   _nextDia:
   - {fileID: 5109307458430424814}
   - {fileID: 696186175074135434}
@@ -5052,7 +5052,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 24
+  m_VersionIndex: 36
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -5406,7 +5406,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8948011958535790969}
         m_TargetAssemblyTypeName: LoadNextLevel, Assembly-CSharp
-        m_MethodName: LoadScene1
+        m_MethodName: LoadLevel1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5458,7 +5458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _invType: 0
   _conditions:
-  - 'Key == 0 '
+  - Key == 0
 --- !u!1 &6444088633156826995
 GameObject:
   m_ObjectHideFlags: 0
@@ -5516,7 +5516,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8948011958535790969}
         m_TargetAssemblyTypeName: LoadNextLevel, Assembly-CSharp
-        m_MethodName: LoadScene2
+        m_MethodName: LoadLevel2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5626,7 +5626,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8948011958535790969}
         m_TargetAssemblyTypeName: LoadNextLevel, Assembly-CSharp
-        m_MethodName: LoadScene4
+        m_MethodName: LoadLevel4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
