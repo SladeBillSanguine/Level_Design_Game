@@ -279,7 +279,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-205914
+  m_Name: pb_Mesh-1508
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1479,7 +1479,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-112212
+  m_Name: pb_Mesh-1454
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2456,7 +2456,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-112200
+  m_Name: pb_Mesh-1442
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3295,7 +3295,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-205926
+  m_Name: pb_Mesh-1520
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4610,6 +4610,30 @@ PrefabInstance:
     - target: {fileID: 89581105721276193, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 196038519394171031, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 196038519394171031, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 196038519394171031, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 196038520217883062, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.81649655
+      objectReference: {fileID: 0}
+    - target: {fileID: 196038520217883062, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.57735026
+      objectReference: {fileID: 0}
+    - target: {fileID: 196038520217883062, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 450150969353229677, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
       propertyPath: _unsubscribeOnInteract
