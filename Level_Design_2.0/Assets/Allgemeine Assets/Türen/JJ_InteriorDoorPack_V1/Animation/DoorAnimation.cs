@@ -23,4 +23,20 @@ public class DoorAnimation : MonoBehaviour
             animator.SetBool("isOpen", false);
         }
     }
+
+    public void PlayOpen()
+    {
+        if (animator.GetBool("isOpen") == true)
+        {
+            animator.SetBool("isOpen", false);
+        }  
+    }
+
+    public void PlayClose()
+    {
+        if (animator.GetBool("isOpen") == false)
+        {
+            animator.SetBool("isOpen", true);
+        }
+    }
 }
