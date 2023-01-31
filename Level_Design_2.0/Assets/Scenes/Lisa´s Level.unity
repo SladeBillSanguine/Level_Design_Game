@@ -151,7 +151,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1508
+  m_Name: pb_Mesh-3755162
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1038,7 +1038,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1454
+  m_Name: pb_Mesh-3755108
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2064,7 +2064,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1442
+  m_Name: pb_Mesh-3755096
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2903,7 +2903,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1520
+  m_Name: pb_Mesh-3755174
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3356,17 +3356,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3800038730478771913, guid: 055689ea5e1ba074498215fa14d42c18, type: 3}
   m_PrefabInstance: {fileID: 1893601072}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1992280001 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1074043220845243991, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
-  m_PrefabInstance: {fileID: 3373043243110152528}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ae5f1d4b56f78e4987e540fa515a3c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1992280002 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7448751068383845930, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
@@ -3474,6 +3463,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2022821963 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7448751067759924469, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
+  m_PrefabInstance: {fileID: 3373043243110152528}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae5f1d4b56f78e4987e540fa515a3c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2041857145 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3373043243008458093, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
@@ -6355,6 +6355,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 10c0b5ad688a78e4ba1ffa9877f45cb9, type: 2}
+    - target: {fileID: 7655819512996878945, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8029038759877581246, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
       propertyPath: m_Color.b
       value: 0
@@ -6378,7 +6382,7 @@ PrefabInstance:
     - target: {fileID: 8336481983909726260, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
       propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1992280001}
+      objectReference: {fileID: 2022821963}
     - target: {fileID: 8336481983909726260, guid: 575275c066167a5499bf6f2c78e07658, type: 3}
       propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlayDoorAnimation
