@@ -261,6 +261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 246319466109537005}
   - component: {fileID: 2484542361608877248}
+  - component: {fileID: 7433849714254067569}
   m_Layer: 0
   m_Name: AnimationPivot
   m_TagString: Untagged
@@ -304,3 +305,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7433849714254067569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4646667478548396249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae5f1d4b56f78e4987e540fa515a3c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorOpen: {fileID: 8300000, guid: f0a4745c66b148e4bbc350d95345f39e, type: 3}
+  doorClose: {fileID: 8300000, guid: 911a5ca18e2fb3b4595e8db803c934fe, type: 3}
