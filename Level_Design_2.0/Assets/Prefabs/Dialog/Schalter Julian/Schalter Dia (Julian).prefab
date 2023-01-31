@@ -54,9 +54,49 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2058115789811235778}
     m_Modifications:
+    - target: {fileID: 1849572072574234035, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4486706742891074869, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
       propertyPath: m_Name
       value: EmptyDiaInteract
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126655625635747697, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
+      propertyPath: _nextDia.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126655625635747697, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
+      propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126655625635747697, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
+      propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126655625635747697, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
+      propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4716368620417284881}
+    - target: {fileID: 5126655625635747697, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
+      propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126655625635747697, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
+      propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartDiaDelay
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126655625635747697, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
+      propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Buntility.DialogueSystem.DiaDelay, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126655625635747697, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
+      propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6024377900668752354, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
+      propertyPath: _delayTime
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 8234603294802851307, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
       propertyPath: m_RootOrder
@@ -116,6 +156,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
+--- !u!114 &4716368620417284881 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6024377900668752354, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
+  m_PrefabInstance: {fileID: 1362633065223318259}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42748b651953b3442be82823cc53051a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &6966571219070639896 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8234603294802851307, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
