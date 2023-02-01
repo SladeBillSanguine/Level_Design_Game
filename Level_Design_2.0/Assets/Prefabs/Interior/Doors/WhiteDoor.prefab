@@ -65,7 +65,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1834148904029237418
 GameObject:
@@ -102,7 +102,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.08, y: 0.419}
+  m_AnchoredPosition: {x: 0.08, y: 0.5}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &7220917924070900405
@@ -338,7 +338,7 @@ MonoBehaviour:
   _onStartEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3740390708280706989}
+      - m_Target: {fileID: 6107689673511858386}
         m_TargetAssemblyTypeName: DoorAnimation, Assembly-CSharp
         m_MethodName: PlayDoorAnimation
         m_Mode: 1
@@ -458,6 +458,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.91890264, y: 1.9499999, z: 0.040926464}
   m_Center: {x: -0.4489162, y: 0.97499996, z: -0.011339112}
+--- !u!114 &6107689673511858386 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7433849714254067569, guid: c77c4716527558745bd33873506541ac, type: 3}
+  m_PrefabInstance: {fileID: 3740390708280706979}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8328509191568424826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae5f1d4b56f78e4987e540fa515a3c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8328509191568424826 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4646667478548396249, guid: c77c4716527558745bd33873506541ac, type: 3}
@@ -559,17 +570,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &3740390708280706989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8328509191568424826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ae5f1d4b56f78e4987e540fa515a3c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doorOpen: {fileID: 8300000, guid: f0a4745c66b148e4bbc350d95345f39e, type: 3}
-  doorClose: {fileID: 8300000, guid: 2e83114343fe78846b22bef169fc42b7, type: 3}

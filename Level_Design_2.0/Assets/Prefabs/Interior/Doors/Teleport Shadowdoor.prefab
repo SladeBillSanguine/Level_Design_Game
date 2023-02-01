@@ -1,63 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &364625049647960068
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2518320112314151699}
-  - component: {fileID: 7047361273632637929}
-  m_Layer: 0
-  m_Name: Dialog Choices
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2518320112314151699
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 364625049647960068}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 4.0816317, z: 7.692307}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1173559145817379294}
-  m_Father: {fileID: 8324149785481524340}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7047361273632637929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 364625049647960068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc6cd4789e381d54ea5f7bb8dae95592, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _diaType: 2
-  _optionText: 
-  _dispIfInvalid: 1
-  _header: 
-  _dialogueText: 
-  _nextDia:
-  - {fileID: 5109307458430424814}
-  _onStartEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _onEndEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &822900540038654378
 GameObject:
   m_ObjectHideFlags: 0
@@ -4931,7 +4873,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2518320112314151699}
+  - {fileID: 1173559145817379294}
   m_Father: {fileID: 4488064540250049341}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4947,7 +4889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 579252ea3021173439ede752507dcd0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogueStarter: {fileID: 7047361273632637929}
+  _dialogueStarter: {fileID: 5109307458430424814}
   _interactDispText: {fileID: 2360375907616980605}
   _interactGraphics: {fileID: 6179257444435150426}
   _autoTriggerInRange: 1
@@ -4978,7 +4920,6 @@ GameObject:
   - component: {fileID: 8517206158830613866}
   - component: {fileID: 8005604550306633809}
   - component: {fileID: 2780019118584596597}
-  - component: {fileID: 8948011958535790969}
   m_Layer: 0
   m_Name: Teleport Shadowdoor
   m_TagString: Untagged
@@ -5068,18 +5009,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &8948011958535790969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6179257444435150426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da7ff809b0fee9e45880f08b18fdec77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6403712473661447105
 GameObject:
   m_ObjectHideFlags: 0
@@ -5090,6 +5019,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1173559145817379294}
   - component: {fileID: 5109307458430424814}
+  - component: {fileID: 6641402987628728899}
   - component: {fileID: 5933635415677997181}
   m_Layer: 0
   m_Name: Dialog
@@ -5105,12 +5035,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6403712473661447105}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.245, y: 0.19999997, z: 0.13000001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2518320112314151699}
+  m_Father: {fileID: 8324149785481524340}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5109307458430424814
@@ -5134,9 +5064,9 @@ MonoBehaviour:
   _onStartEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8948011958535790969}
-        m_TargetAssemblyTypeName: LoadNextLevel, Assembly-CSharp
-        m_MethodName: LoadLevel1
+      - m_Target: {fileID: 6641402987628728899}
+        m_TargetAssemblyTypeName: Teleportation, Assembly-CSharp
+        m_MethodName: Teleport
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5160,19 +5090,24 @@ MonoBehaviour:
         m_CallState: 2
   _onEndEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6179257444435150426}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!114 &6641402987628728899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6403712473661447105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79151428126ac7743b33baa9c0529810, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xPosition: 0
+  yPosition: 0
+  zPosition: 0
+  player: {fileID: 0}
+  playerController: {fileID: 0}
 --- !u!114 &5933635415677997181
 MonoBehaviour:
   m_ObjectHideFlags: 0

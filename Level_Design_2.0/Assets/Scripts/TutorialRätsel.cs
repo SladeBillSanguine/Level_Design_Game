@@ -12,7 +12,7 @@ public class TutorialRätsel : MonoBehaviour
     MeshRenderer MeshRendererBirne1;
     MeshRenderer MeshRendererBirne2;
     MeshRenderer MeshRendererBirne3;
-    Color noColor;
+    Color redColor;
     Color greenColor;
     
     void Start()
@@ -20,11 +20,11 @@ public class TutorialRätsel : MonoBehaviour
         MeshRendererBirne1 = glühBirne1.GetComponent<MeshRenderer>();
         MeshRendererBirne2 = glühBirne2.GetComponent<MeshRenderer>();
         MeshRendererBirne3 = glühBirne3.GetComponent<MeshRenderer>();
-        noColor = Color.red;
+        redColor = Color.red;
         greenColor = Color.green;
         MeshRendererBirne1.material.color = greenColor;
         MeshRendererBirne2.material.color = greenColor;
-        MeshRendererBirne3.material.color = noColor;
+        MeshRendererBirne3.material.color = redColor;
     }
 
     void Update()
@@ -39,61 +39,61 @@ public class TutorialRätsel : MonoBehaviour
 
     public void ChangeAllColors()
     {
-        if(MeshRendererBirne1.material.color == noColor)
+        if(MeshRendererBirne1.material.color == redColor)
         {
             MeshRendererBirne1.material.color = greenColor;
         }
         else
         {
-            MeshRendererBirne1.material.color = noColor;
+            MeshRendererBirne1.material.color = redColor;
         }
-        if(MeshRendererBirne2.material.color == noColor)
+        if(MeshRendererBirne2.material.color == redColor)
         {
             MeshRendererBirne2.material.color = greenColor;
         }
         else
         {
-            MeshRendererBirne2.material.color = noColor;
+            MeshRendererBirne2.material.color = redColor;
         }
-        if(MeshRendererBirne3.material.color == noColor)
+        if(MeshRendererBirne3.material.color == redColor)
         {
             MeshRendererBirne3.material.color = greenColor;
         }
         else
         {
-            MeshRendererBirne3.material.color = noColor;
+            MeshRendererBirne3.material.color = redColor;
         }
     }
 
     public void ChangeColorLight2()
     {
-        if(MeshRendererBirne2.material.color == noColor)
+        if(MeshRendererBirne2.material.color == redColor)
         {
             MeshRendererBirne2.material.color = greenColor;
         }
         else
         {
-            MeshRendererBirne2.material.color = noColor;
+            MeshRendererBirne2.material.color = redColor;
         }
     }
 
     public void ChangeColorLight2And3()
     {
-        if(MeshRendererBirne2.material.color == noColor)
+        if(MeshRendererBirne2.material.color == redColor)
         {
             MeshRendererBirne2.material.color = greenColor;
         }
         else
         {
-            MeshRendererBirne2.material.color = noColor;
+            MeshRendererBirne2.material.color = redColor;
         }
-        if(MeshRendererBirne3.material.color == noColor)
+        if(MeshRendererBirne3.material.color == redColor)
         {
             MeshRendererBirne3.material.color = greenColor;
         }
         else
         {
-            MeshRendererBirne3.material.color = noColor;
+            MeshRendererBirne3.material.color = redColor;
         }
     }
 
