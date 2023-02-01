@@ -264,6 +264,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ae5f1d4b56f78e4987e540fa515a3c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doorOpen: {fileID: 8300000, guid: f0a4745c66b148e4bbc350d95345f39e, type: 3}
+  doorClose: {fileID: 8300000, guid: 911a5ca18e2fb3b4595e8db803c934fe, type: 3}
 --- !u!4 &3289572347103394703 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 49b4d7c9e4aed014384d57e7dc71e7ba, type: 3}
