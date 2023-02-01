@@ -545,7 +545,7 @@ MonoBehaviour:
   _onStartEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1520220323592902542}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DoorAnimation, Assembly-CSharp
         m_MethodName: PlayDoorAnimation
         m_Mode: 1
@@ -584,7 +584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42748b651953b3442be82823cc53051a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _delayTime: 0.1
+  _delayTime: 1
 --- !u!1 &7173781887420417946
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,17 +891,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d5928fc8ead5964dafa2848e26c7c46, type: 3}
---- !u!114 &1520220323592902542 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8731583373186569406, guid: 0d5928fc8ead5964dafa2848e26c7c46, type: 3}
-  m_PrefabInstance: {fileID: 7796918996978860848}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ae5f1d4b56f78e4987e540fa515a3c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &7443799490194884425 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 826842322353734777, guid: 0d5928fc8ead5964dafa2848e26c7c46, type: 3}
