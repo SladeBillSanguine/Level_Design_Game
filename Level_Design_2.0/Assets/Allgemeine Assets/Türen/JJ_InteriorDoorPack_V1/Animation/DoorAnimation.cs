@@ -5,55 +5,56 @@ using UnityEngine;
 public class DoorAnimation : MonoBehaviour
 {
 
-    Animator animator;
-    [SerializeField] AudioClip doorOpen;
-    [SerializeField] AudioClip doorClose;
-    
-    AudioSource audioSource;
-    
-    void Start()
-    {
-        animator = this.gameObject.GetComponent<Animator>();
-        audioSource = this.gameObject.GetComponent<AudioSource>();
-    }
+  Animator animator;
+  [SerializeField] AudioClip doorOpen;
+  [SerializeField] AudioClip doorClose;
+  
+  AudioSource audioSource;
+  
+  void Start()
+  {
+    animator = this.gameObject.GetComponent<Animator>();
+    audioSource = this.gameObject.GetComponent<AudioSource>();
+  }
 
-    public void PlayDoorAnimation()
+  public void PlayDoorAnimation()
+  {
+    Debug.Log("Using Door");
+    if(animator.GetBool("isOpen") == false)
     {
-        if(animator.GetBool("isOpen") == false)
-        {
-            animator.SetBool("isOpen", true);
-          //  PlayDoorCloseAudio();
-        }
-        else
-        {
-            animator.SetBool("isOpen", false);
-           // PlayDoorOpenAudio();
-        }
+      animator.SetBool("isOpen", true);
+      //  PlayDoorCloseAudio();
     }
-    
-    void PlayDoorOpenAudio()
+    else
     {
-        //audioSource.PlayOneShot(doorOpen);
+      animator.SetBool("isOpen", false);
+      // PlayDoorOpenAudio();
     }
-    void PlayDoorCloseAudio()
+  }
+  
+  void PlayDoorOpenAudio()
+  {
+    //audioSource.PlayOneShot(doorOpen);
+  }
+  void PlayDoorCloseAudio()
+  {
+    //  audioSource.PlayOneShot(doorClose);
+  }
+  public void PlayOpen()
+  {
+    if (animator.GetBool("isOpen") == true)
     {
-      //  audioSource.PlayOneShot(doorClose);
-    }
-    public void PlayOpen()
-    {
-        if (animator.GetBool("isOpen") == true)
-        {
-            animator.SetBool("isOpen", false);
-          //  PlayDoorOpenAudio();
-        }  
-    }
+      animator.SetBool("isOpen", false);
+      //  PlayDoorOpenAudio();
+    }  
+  }
 
-    public void PlayClose()
+  public void PlayClose()
+  {
+    if (animator.GetBool("isOpen") == false)
     {
-        if (animator.GetBool("isOpen") == false)
-        {
-            animator.SetBool("isOpen", true);
-          //  PlayDoorCloseAudio();
-        }
+        animator.SetBool("isOpen", true);
+        //  PlayDoorCloseAudio();
     }
+  }
 }
