@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4096417397948156615}
+  - component: {fileID: 6056079421218426352}
   m_Layer: 0
   m_Name: Kamin_Prefab
   m_TagString: Untagged
@@ -32,6 +33,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6056079421218426352
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3743856558974489085}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.96954346, y: 1.6061935, z: 1.8283081}
+  m_Center: {x: -76.36766, y: 109.4969, z: 286.97488}
 --- !u!1001 &5099263699693246368
 PrefabInstance:
   m_ObjectHideFlags: 0
