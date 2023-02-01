@@ -1,0 +1,20 @@
+# This file uses inches as units for non-parametric coordinates.
+
+mtllib gavel_new_maya_export.mtl
+g default
+v 0.000000 0.000000 0.000000
+v 0.000000 280.204803 0.000000
+v 215.899994 0.000000 0.000000
+v 215.899994 280.204803 0.000000
+vt 1.000000 1.000000
+vt 0.000000 1.000000
+vt 0.000000 0.000000
+vt 1.000000 0.000000
+vn 0.000000 0.000000 1.000000
+vn 0.000000 0.000000 1.000000
+vn 0.000000 0.000000 1.000000
+vn 0.000000 0.000000 1.000000
+s off
+g gavel_letter_new:object_1
+usemtl gavel_letter_new:Picture
+f 4/1/1 2/2/2 1/3/3 3/4/4
