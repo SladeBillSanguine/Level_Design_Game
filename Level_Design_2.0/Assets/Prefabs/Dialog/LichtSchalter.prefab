@@ -27,7 +27,7 @@ RectTransform:
   m_GameObject: {fileID: 2690168334982554248}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0.3}
-  m_LocalScale: {x: 0.061993, y: 0.061993, z: 0.061993}
+  m_LocalScale: {x: 0.036239248, y: 0.036239248, z: 0.036239248}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8444351802899830846}
@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.08, y: 0.419}
+  m_AnchoredPosition: {x: 0.050219, y: 0.291}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1648151336221224793
@@ -496,8 +496,8 @@ Transform:
   m_GameObject: {fileID: 8444351804309129626}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8444351803879852176}
   - {fileID: 9076815382317663188}
@@ -535,7 +535,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 3
+  m_Radius: 1.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &8826468142053450815
 PrefabInstance:

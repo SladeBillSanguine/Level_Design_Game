@@ -84,7 +84,7 @@ namespace Buntility.DialogueSystem
 
             //Debug.Log($"DiaSys handling {_curDiaElement.name}");
             
-            setCursorState(true);
+            
             _curDiaElement.StartEvent();
             _curDiaElement.TriggerCommands();
 
@@ -95,6 +95,10 @@ namespace Buntility.DialogueSystem
                     return;
                 case EDiaElementType.Empty:
                     // DoNothing! Wait for Feedback
+                    return;
+                case EDiaElementType.Option:
+                      setCursorState(true);
+                    _diaDisplay.DisplayDiaElement(inDiaElement);
                     return;
                 default:
                     _diaDisplay.DisplayDiaElement(inDiaElement);
