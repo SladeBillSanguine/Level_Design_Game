@@ -175,7 +175,7 @@ namespace Buntility.GameMenu
 
         void setContinueButtonText()
         {
-            _continueButton.text = (GameStateHub.GameState == EGameState.inMenu_GameLoaded) ? "Continue Game" : "New Game";
+            _continueButton.text = (GameStateHub.GameState == EGameState.inMenu_GameLoaded) ? "New Game" : "Continue Game";
         }
 
 
