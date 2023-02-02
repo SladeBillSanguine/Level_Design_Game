@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class MonsterAi : MonoBehaviour
+public class MonsterAI : MonoBehaviour
 {
     bool sichtbar;
     [SerializeField] GameObject Monster;
