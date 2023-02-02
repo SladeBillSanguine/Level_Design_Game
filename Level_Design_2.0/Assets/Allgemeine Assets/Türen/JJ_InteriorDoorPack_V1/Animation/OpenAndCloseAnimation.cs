@@ -6,8 +6,7 @@ public class OpenAndCloseAnimation : MonoBehaviour
 {
 
   Animator animator;
-  [SerializeField] AudioClip doorOpen;
-  [SerializeField] AudioClip doorClose;
+  
   
   AudioSource audioSource;
   
@@ -23,29 +22,29 @@ public class OpenAndCloseAnimation : MonoBehaviour
     if(animator.GetBool("isOpen") == false)
     {
       animator.SetBool("isOpen", true);
-      //  PlayDoorCloseAudio();
+      PlayDoorCloseAudio();
     }
     else
     {
       animator.SetBool("isOpen", false);
-      // PlayDoorOpenAudio();
+      PlayDoorOpenAudio();
     }
   }
   
   void PlayDoorOpenAudio()
   {
-    //audioSource.PlayOneShot(doorOpen);
+    audioSource.Play();
   }
   void PlayDoorCloseAudio()
   {
-    //  audioSource.PlayOneShot(doorClose);
+    audioSource.Play();
   }
   public void PlayOpen()
   {
     if (animator.GetBool("isOpen") == true)
     {
       animator.SetBool("isOpen", false);
-      //  PlayDoorOpenAudio();
+       PlayDoorOpenAudio();
     }  
   }
 
