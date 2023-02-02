@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: 06666ea447611e84ba00f3aab7f7feb4
   - enabled: 1
-    path: Assets/Scenes/Julian`s Level.unity
+    path: Assets/Scenes/Julians Level.unity
     guid: 1cb8c14de1bf94a418f1bc9d38ed18e6
   - enabled: 1
     path: Assets/Scenes/Alicia - UX.unity
     guid: 131604b430f3eae42a4820fbdc935200
   - enabled: 1
-    path: "Assets/Scenes/Lisa\xB4s Level.unity"
+    path: Assets/Scenes/Lisas Level.unity
     guid: 793a7f35dc74b58418bdf405073041c6
   - enabled: 1
     path: Assets/Scenes/Metrics.unity
