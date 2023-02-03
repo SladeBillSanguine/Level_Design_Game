@@ -2,32 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Buntility.Input;
 
 namespace Buntility.GameMenu
 {
 
     public class LoadSzeneTest : MonoBehaviour
     {
-        [SerializeField ]string _oldScene;
-       
+        [SerializeField] string _oldScene;
+        [SerializeField] GameObject _player;
+
         private string _newScene;
-       
+
         void startLoading()
         {
-            SceneLoaderHub.UnLoadScene(_oldScene, loadNewScene);
+            Destroy(_player);
+            SceneLoaderHub.LoadScene(_newScene, unloadOldScene);
         }
 
-        void loadNewScene()
+        void unloadOldScene()
         {
-            SceneLoaderHub.LoadScene(_newScene, finaliseLoad);
+            SceneLoaderHub.SetActiveScene(_newScene);
+            SceneLoaderHub.UnLoadScene(_oldScene, finaliseLoad);
         }
 
         void finaliseLoad()
         {
-            SceneLoaderHub.SetActiveScene(_newScene);
+            //SceneLoaderHub.SetActiveScene(_newScene);
+            Debug.Log("LoadDone");
         }
 
-      
 
         public void LoadTutorial()
         {

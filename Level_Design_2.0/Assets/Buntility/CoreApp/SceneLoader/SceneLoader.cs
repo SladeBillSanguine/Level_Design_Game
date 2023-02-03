@@ -71,7 +71,7 @@ namespace Buntility.GameMenu
             if (_doesLoadAction) return;
 
             // CLEAR_LOADED_SCENE_LIST
-            if (IsSceneLoaded(inSceneName))
+            if (!IsSceneLoaded(inSceneName))
             {
                 Debug.Log($"Cannot find scene '{inSceneName}' - is it loaded?");
                 return;
@@ -83,6 +83,9 @@ namespace Buntility.GameMenu
 
         public void SetActiveScene(string inName)
         {
+            if (!IsSceneLoaded(inName)) { 
+                return;
+        }
             SceneManager.SetActiveScene(getSceneByName(inName));
         }
 
