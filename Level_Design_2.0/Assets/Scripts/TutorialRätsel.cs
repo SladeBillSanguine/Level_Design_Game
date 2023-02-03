@@ -8,6 +8,7 @@ public class TutorialRätsel : MonoBehaviour
     [SerializeField] GameObject glühBirne2;
     [SerializeField] GameObject glühBirne3;
     [SerializeField] Animator heavyDoorOpen;
+    [SerializeField] AudioSource audioSource;
     
     MeshRenderer MeshRendererBirne1;
     MeshRenderer MeshRendererBirne2;
@@ -32,6 +33,7 @@ public class TutorialRätsel : MonoBehaviour
         if(MeshRendererBirne1.material.color == Color.green && MeshRendererBirne2.material.color == Color.green && MeshRendererBirne3.material.color == Color.green)
         {
             heavyDoorOpen.Play("HeavyDoorOpen");
+            audioSource.Play();
             WaitForDoorAnimation();
             heavyDoorOpen.StopPlayback();
         }
