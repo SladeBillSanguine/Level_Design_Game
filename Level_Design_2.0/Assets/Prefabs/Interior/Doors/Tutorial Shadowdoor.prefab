@@ -109,7 +109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _invType: 0
   _conditions:
-  - Key == 2
+  - StoryProgression == 3
 --- !u!1 &364625049647960068
 GameObject:
   m_ObjectHideFlags: 0
@@ -5458,9 +5458,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ab1557d7bb61d6459405942c4cdb357, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _invType: 0
+  _invType: 1
   _conditions:
-  - Key == 0
+  - StoryProgression == 1
 --- !u!1 &6444088633156826995
 GameObject:
   m_ObjectHideFlags: 0
@@ -5570,7 +5570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _invType: 0
   _conditions:
-  - Key == 1
+  - StoryProgression == 2
 --- !u!1 &7179459390826527703
 GameObject:
   m_ObjectHideFlags: 0
@@ -5680,4 +5680,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _invType: 0
   _conditions:
-  - Key == 3
+  - StoryProgression == 4
