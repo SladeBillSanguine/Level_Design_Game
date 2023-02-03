@@ -40,6 +40,7 @@ namespace Buntility.GameMenu
         }
         public void LoadLevel1()
         {
+            Debug.Log("Ich bin eine Türe");
             _newScene = "Julians Level";
             startLoading();
         }
