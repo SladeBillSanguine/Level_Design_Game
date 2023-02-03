@@ -53,7 +53,7 @@ public class OpenAndCloseAnimation : MonoBehaviour
     if (animator.GetBool("isOpen") == false)
     {
         animator.SetBool("isOpen", true);
-        //  PlayDoorCloseAudio();
+          PlayDoorCloseAudio();
     }
   }
 }
