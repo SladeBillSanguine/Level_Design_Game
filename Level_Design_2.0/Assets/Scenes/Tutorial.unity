@@ -474,7 +474,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh214212
+  m_Name: pb_Mesh49956
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1000,7 +1000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &123243724
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1042,7 +1042,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Interact using E
+  m_text: Nutze E um zu interagieren
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1264,7 +1264,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &153024576
 PrefabInstance:
@@ -1528,7 +1528,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Use WASD to walk
+  m_text: Nutze WASD um dich zu bewegen
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1727,7 +1727,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh214316
+  m_Name: pb_Mesh50100
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1891,7 +1891,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh214116
+  m_Name: pb_Mesh49854
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3329,7 +3329,7 @@ Transform:
   - {fileID: 256109848}
   - {fileID: 123243724}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &390394823
 GameObject:
@@ -7580,7 +7580,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh214084
+  m_Name: pb_Mesh49810
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11301,7 +11301,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh213858
+  m_Name: pb_Mesh49520
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12542,7 +12542,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh213780
+  m_Name: pb_Mesh49434
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13151,7 +13151,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh213698
+  m_Name: pb_Mesh49352
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13315,7 +13315,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh213642
+  m_Name: pb_Mesh49296
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13587,7 +13587,7 @@ Transform:
   - {fileID: 499480075}
   - {fileID: 2082992651}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &790160139
 GameObject:
@@ -14579,7 +14579,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh214234
+  m_Name: pb_Mesh49998
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20343,7 +20343,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh213812
+  m_Name: pb_Mesh49468
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20613,7 +20613,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1232473283
 GameObject:
@@ -21744,7 +21744,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh213660
+  m_Name: pb_Mesh49314
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21908,7 +21908,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh214282
+  m_Name: pb_Mesh50056
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22072,7 +22072,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh214302
+  m_Name: pb_Mesh50076
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24825,7 +24825,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh213894
+  m_Name: pb_Mesh49568
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -25749,7 +25749,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh213746
+  m_Name: pb_Mesh49400
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -26384,37 +26384,6 @@ Transform:
   m_Father: {fileID: 567816796}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1629978616
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1629978617}
-  m_Layer: 0
-  m_Name: Dia + Mechanics
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1629978617
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1629978616}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1636389866
 GameObject:
   m_ObjectHideFlags: 0
@@ -26759,7 +26728,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh214018
+  m_Name: pb_Mesh49730
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -28216,7 +28185,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh214194
+  m_Name: pb_Mesh49938
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -28416,7 +28385,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh213726
+  m_Name: pb_Mesh49380
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -28702,7 +28671,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1803399942
 GameObject:
@@ -28782,10 +28751,10 @@ MonoBehaviour:
   _optionText: 
   _dispIfInvalid: 1
   _header: Lazarus
-  _dialogueText: Oh, a child!? I thought I would be the only one... Someone must
-    have knocked us out and brought us here.  I tried finding the keys to escape,
-    but these doors lead to somewhere else entirely! Be careful... Whoever brought
-    us here might still be around.
+  _dialogueText: "Oh, ein Kind!? Ich dachte ich w\xE4re der einzige... Wir m\xFCssen
+    irgendwie diese Schl\xF6sser \xF6ffnen. Ich habe versucht mich umzuschauen, aber
+    diese T\xFCren f\xFChren zu v\xF6llig anderen Orten! Sei vorsichtig... Wer auch
+    immer uns verschleppt hat k\xF6nnte noch hier sein."
   _nextDia: []
   _onStartEvent:
     m_PersistentCalls:
@@ -30079,7 +30048,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh213798
+  m_Name: pb_Mesh49454
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -31247,7 +31216,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh213950
+  m_Name: pb_Mesh49652
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -31516,7 +31485,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh213834
+  m_Name: pb_Mesh49494
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -32788,7 +32757,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh214178
+  m_Name: pb_Mesh49922
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -32962,7 +32931,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh214156
+  m_Name: pb_Mesh49904
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -33136,7 +33105,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh214348
+  m_Name: pb_Mesh50132
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -33334,7 +33303,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh214374
+  m_Name: pb_Mesh50158
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -33686,10 +33655,10 @@ MonoBehaviour:
   _optionText: 
   _dispIfInvalid: 1
   _header: 
-  _dialogueText: 'Great! You are back and found a Key! Unfortunately I haven`t been
-    that successfull... I am sure someone is lurking around here. I heard some scary
-    noises and ran right back here. Go ahead. Just a few more Keys and we can get
-    out of here! '
+  _dialogueText: "Gro\xDFartig! Du bist zur\xFCck und hast einen Schl\xFCssel gefunden!
+    Leider hatte ich nicht so viel Erfolg... Auf meiner Suche habe ich merkw\xFCrdige
+    ger\xE4usche geh\xF6rt und bin hier hin zur\xFCck geflohen. Sei vorsichtig vor
+    dem Ding im Dunkeln! "
   _nextDia: []
   _onStartEvent:
     m_PersistentCalls:
