@@ -129,7 +129,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-114606
+  m_Name: pb_Mesh-8878
   serializedVersion: 10
   m_SubMeshes: []
   m_Shapes:
@@ -1264,7 +1264,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &153024576
 PrefabInstance:
@@ -1891,7 +1891,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh95636
+  m_Name: pb_Mesh32536
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2118,6 +2118,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 4636998225997345788, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _player
+      value: 
+      objectReference: {fileID: 1925550099}
     - target: {fileID: 6179257444435150426, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_Name
       value: Tutorial Shadowdoor
@@ -2128,7 +2132,7 @@ PrefabInstance:
       objectReference: {fileID: 2121874047}
     - target: {fileID: 7343337438499300408, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_VersionIndex
-      value: 55
+      value: 61
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
@@ -2147,63 +2151,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6357736138041391419, guid: c08e5379243cfb044be08fdf1f12bd91, type: 3}
   m_PrefabInstance: {fileID: 1391587083}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &324786212
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 96265992886307732, guid: eb0911d0db451ad4faa3122458b04130, type: 3}
-      propertyPath: m_Name
-      value: InvSOHub
-      objectReference: {fileID: 0}
-    - target: {fileID: 6575800263123023330, guid: eb0911d0db451ad4faa3122458b04130, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6575800263123023330, guid: eb0911d0db451ad4faa3122458b04130, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6575800263123023330, guid: eb0911d0db451ad4faa3122458b04130, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6575800263123023330, guid: eb0911d0db451ad4faa3122458b04130, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6575800263123023330, guid: eb0911d0db451ad4faa3122458b04130, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6575800263123023330, guid: eb0911d0db451ad4faa3122458b04130, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6575800263123023330, guid: eb0911d0db451ad4faa3122458b04130, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6575800263123023330, guid: eb0911d0db451ad4faa3122458b04130, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6575800263123023330, guid: eb0911d0db451ad4faa3122458b04130, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6575800263123023330, guid: eb0911d0db451ad4faa3122458b04130, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6575800263123023330, guid: eb0911d0db451ad4faa3122458b04130, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: eb0911d0db451ad4faa3122458b04130, type: 3}
 --- !u!1001 &329969374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2355,7 +2302,7 @@ MonoBehaviour:
   _diaType: 0
   _optionText: 
   _dispIfInvalid: 1
-  _header: 
+  _header: Lazarus
   _dialogueText: DialogueText
   _nextDia: []
   _onStartEvent:
@@ -3329,7 +3276,7 @@ Transform:
   - {fileID: 256109848}
   - {fileID: 123243724}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &390394823
 GameObject:
@@ -4470,7 +4417,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &474804542
 PrefabInstance:
@@ -12963,7 +12910,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-113944
+  m_Name: pb_Mesh-8184
   serializedVersion: 10
   m_SubMeshes: []
   m_Shapes:
@@ -13627,7 +13574,7 @@ Transform:
   - {fileID: 499480075}
   - {fileID: 2082992651}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &790160139
 GameObject:
@@ -15129,7 +15076,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-114454
+  m_Name: pb_Mesh-112944
   serializedVersion: 10
   m_SubMeshes: []
   m_Shapes:
@@ -20326,7 +20273,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1201596768
 PrefabInstance:
@@ -20573,7 +20520,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8335735757244657838, guid: 73aad2f491ea1f346905fd7bdbf8e6eb, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8335735757244657838, guid: 73aad2f491ea1f346905fd7bdbf8e6eb, type: 3}
       propertyPath: m_LocalScale.x
@@ -20666,7 +20613,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1232473283
 GameObject:
@@ -21767,6 +21714,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 4636998225997345788, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _player
+      value: 
+      objectReference: {fileID: 1925550099}
     - target: {fileID: 6179257444435150426, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_Name
       value: Tutorial Shadowdoor
@@ -21777,7 +21728,7 @@ PrefabInstance:
       objectReference: {fileID: 730820135}
     - target: {fileID: 7343337438499300408, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_VersionIndex
-      value: 55
+      value: 61
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
@@ -24548,7 +24499,7 @@ MonoBehaviour:
   _diaType: 0
   _optionText: 
   _dispIfInvalid: 1
-  _header: 
+  _header: Lazarus
   _dialogueText: DialogueText
   _nextDia: []
   _onStartEvent:
@@ -24861,6 +24812,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 4636998225997345788, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _player
+      value: 
+      objectReference: {fileID: 1925550099}
     - target: {fileID: 6179257444435150426, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_Name
       value: Tutorial Shadowdoor
@@ -24871,7 +24826,7 @@ PrefabInstance:
       objectReference: {fileID: 973272460}
     - target: {fileID: 7343337438499300408, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_VersionIndex
-      value: 55
+      value: 61
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
@@ -25451,6 +25406,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 4636998225997345788, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _player
+      value: 
+      objectReference: {fileID: 1925550099}
     - target: {fileID: 6179257444435150426, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_Name
       value: Tutorial Shadowdoor
@@ -25461,7 +25420,7 @@ PrefabInstance:
       objectReference: {fileID: 38774987}
     - target: {fileID: 7343337438499300408, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_VersionIndex
-      value: 55
+      value: 61
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
@@ -28833,7 +28792,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1803399942
 GameObject:
@@ -30858,7 +30817,7 @@ MonoBehaviour:
   _diaType: 0
   _optionText: 
   _dispIfInvalid: 1
-  _header: 
+  _header: Lazarus
   _dialogueText: DialogueText
   _nextDia: []
   _onStartEvent:
@@ -31294,6 +31253,10 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 1275263341107560503, guid: 15067b13b87e9554c8f730b5f734555d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1633296366408001090, guid: 15067b13b87e9554c8f730b5f734555d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.210217
@@ -31316,7 +31279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7777390996464456450, guid: 15067b13b87e9554c8f730b5f734555d, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7777390996464456450, guid: 15067b13b87e9554c8f730b5f734555d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31372,6 +31335,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15067b13b87e9554c8f730b5f734555d, type: 3}
+--- !u!1 &1925550099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6008951267642573202, guid: 15067b13b87e9554c8f730b5f734555d, type: 3}
+  m_PrefabInstance: {fileID: 1925550098}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1928605320
 Mesh:
   m_ObjectHideFlags: 0
@@ -33737,7 +33705,7 @@ Transform:
   m_Children:
   - {fileID: 1361978299}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2099939168
 GameObject:
@@ -33816,7 +33784,7 @@ MonoBehaviour:
   _diaType: 0
   _optionText: 
   _dispIfInvalid: 1
-  _header: 
+  _header: Lazarus
   _dialogueText: "Gro\xDFartig! Du bist zur\xFCck und hast einen Schl\xFCssel gefunden!
     Leider hatte ich nicht so viel Erfolg... Auf meiner Suche habe ich merkw\xFCrdige
     ger\xE4usche geh\xF6rt und bin hier hin zur\xFCck geflohen. Sei vorsichtig vor
@@ -33839,7 +33807,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-108758
+  m_Name: pb_Mesh-3256
   serializedVersion: 10
   m_SubMeshes: []
   m_Shapes:
