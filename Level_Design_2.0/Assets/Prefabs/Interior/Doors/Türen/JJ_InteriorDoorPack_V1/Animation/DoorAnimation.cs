@@ -19,33 +19,32 @@ public class DoorAnimation : MonoBehaviour
 
   public void PlayDoorAnimation()
   {
-    Debug.Log("Using Door");
     if(animator.GetBool("isOpen") == false)
     {
       animator.SetBool("isOpen", true);
-      //  PlayDoorCloseAudio();
+      PlayDoorCloseAudio();
     }
     else
     {
       animator.SetBool("isOpen", false);
-      // PlayDoorOpenAudio();
+      PlayDoorOpenAudio();
     }
   }
   
   void PlayDoorOpenAudio()
   {
-    //audioSource.PlayOneShot(doorOpen);
+    audioSource.PlayOneShot(doorOpen);
   }
   void PlayDoorCloseAudio()
   {
-    //  audioSource.PlayOneShot(doorClose);
+    audioSource.PlayOneShot(doorClose);
   }
   public void PlayOpen()
   {
     if (animator.GetBool("isOpen") == true)
     {
       animator.SetBool("isOpen", false);
-      //  PlayDoorOpenAudio();
+      PlayDoorOpenAudio();
     }  
   }
 
@@ -54,7 +53,7 @@ public class DoorAnimation : MonoBehaviour
     if (animator.GetBool("isOpen") == false)
     {
         animator.SetBool("isOpen", true);
-        //  PlayDoorCloseAudio();
+        PlayDoorCloseAudio();
     }
   }
 }
