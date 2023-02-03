@@ -16,12 +16,14 @@ namespace Buntility.GameMenu
 
         void startLoading()
         {
+            Debug.Log("loading Scene");
             Destroy(_player);
             SceneLoaderHub.LoadScene(_newScene, unloadOldScene);
         }
 
         void unloadOldScene()
         {
+            Debug.Log("Unloading Scene");
             SceneLoaderHub.SetActiveScene(_newScene);
             SceneLoaderHub.UnLoadScene(_oldScene, finaliseLoad);
         }
@@ -40,7 +42,7 @@ namespace Buntility.GameMenu
         }
         public void LoadLevel1()
         {
-            Debug.Log("Ich bin eine Türe");
+            Debug.Log("loading: " + _newScene);
             _newScene = "Julians Level";
             startLoading();
         }
