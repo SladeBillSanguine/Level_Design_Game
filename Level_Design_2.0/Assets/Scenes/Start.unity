@@ -1148,7 +1148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7991549268531786078, guid: 2e8f3a67b8bed724dbe881f400476a59, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e8f3a67b8bed724dbe881f400476a59, type: 3}
@@ -3092,6 +3092,10 @@ PrefabInstance:
     - target: {fileID: 4419257313503433676, guid: a641470cc83e6144a93e308999c4939e, type: 3}
       propertyPath: m_Name
       value: 'Canvas: Inventory'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419257313503433676, guid: a641470cc83e6144a93e308999c4939e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a641470cc83e6144a93e308999c4939e, type: 3}
