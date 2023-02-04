@@ -79,7 +79,7 @@ namespace Buntility.DialogueSystem
                 endDialogue();
                 return;
             }
-
+            InputHub.DisableExternControls();
             _curDiaElement = inDiaElement;
 
             //Debug.Log($"DiaSys handling {_curDiaElement.name}");

@@ -1661,7 +1661,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 414577978}
-  m_LocalRotation: {x: -0.017676376, y: 0.7127586, z: 0.017974002, w: 0.7009563}
+  m_LocalRotation: {x: -0.017676374, y: 0.71275866, z: 0.017974002, w: 0.7009562}
   m_LocalPosition: {x: -2.635, y: -1.793, z: -2.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1784,6 +1784,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 507625670}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
   _onEndEvent:
     m_PersistentCalls:
@@ -3508,7 +3520,7 @@ PrefabInstance:
     - target: {fileID: 8518399400632470890, guid: 15067b13b87e9554c8f730b5f734555d, type: 3}
       propertyPath: m_TargetTexture
       value: 
-      objectReference: {fileID: 8400000, guid: 1fd566f8f51598a478c199baccc9536e, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 8518399400632470893, guid: 15067b13b87e9554c8f730b5f734555d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.21022
@@ -8989,9 +9001,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 507625667}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
+      - m_Target: {fileID: 507625670}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
