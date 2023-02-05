@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414738, b: 0.12107852, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2262,6 +2262,10 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6274031505098740778, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6274031505213198223, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -2314,9 +2318,33 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6274031506594141808, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4203143352785901431, guid: 924bcd2ccacb92246a9a4a45d55bf16b, type: 3}
+    - target: {fileID: 6274031506594141808, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274031506594141808, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274031506594141808, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274031506594141809, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6526827991797415547, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
       propertyPath: _gameScene
       value: Tutorial
+      objectReference: {fileID: 0}
+    - target: {fileID: 9095596413116363509, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
@@ -2941,6 +2969,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3539133981444097157, guid: a641470cc83e6144a93e308999c4939e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539133981444097157, guid: a641470cc83e6144a93e308999c4939e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539133981444097157, guid: a641470cc83e6144a93e308999c4939e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -141.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4419257313503433672, guid: a641470cc83e6144a93e308999c4939e, type: 3}
       propertyPath: m_Pivot.x
       value: 0
