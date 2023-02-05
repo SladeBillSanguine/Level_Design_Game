@@ -15313,7 +15313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _invType: 0
   _conditions:
-  - Key ==0
+  - Key == 0
 --- !u!1 &998740677
 GameObject:
   m_ObjectHideFlags: 0
