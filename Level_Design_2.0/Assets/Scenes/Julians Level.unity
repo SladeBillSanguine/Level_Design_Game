@@ -6260,7 +6260,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh263054
+  m_Name: pb_Mesh154738
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13434,7 +13434,7 @@ PrefabInstance:
       objectReference: {fileID: 1263905816}
     - target: {fileID: 8444351803879852179, guid: 0729bae65ff78e74b9a5f6ee8ac34981, type: 3}
       propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8444351803879852179, guid: 0729bae65ff78e74b9a5f6ee8ac34981, type: 3}
       propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
@@ -13451,7 +13451,7 @@ PrefabInstance:
     - target: {fileID: 8444351803879852179, guid: 0729bae65ff78e74b9a5f6ee8ac34981, type: 3}
       propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
-      objectReference: {fileID: 1720382133}
+      objectReference: {fileID: 1962689379}
     - target: {fileID: 8444351803879852179, guid: 0729bae65ff78e74b9a5f6ee8ac34981, type: 3}
       propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
       value: 2
@@ -13466,7 +13466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8444351803879852179, guid: 0729bae65ff78e74b9a5f6ee8ac34981, type: 3}
       propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
-      value: PlayClose
+      value: PlayCloseSilent
       objectReference: {fileID: 0}
     - target: {fileID: 8444351803879852179, guid: 0729bae65ff78e74b9a5f6ee8ac34981, type: 3}
       propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
@@ -17697,7 +17697,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh456076
+  m_Name: pb_Mesh131040
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -68617,17 +68617,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4733205800453818822, guid: 634347772428d974e83b1b8dda2e213c, type: 3}
   m_PrefabInstance: {fileID: 1720382131}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1720382133 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6107689673511858386, guid: 634347772428d974e83b1b8dda2e213c, type: 3}
-  m_PrefabInstance: {fileID: 1720382131}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ae5f1d4b56f78e4987e540fa515a3c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1720736304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84572,7 +84561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8416387304484285276, guid: 634347772428d974e83b1b8dda2e213c, type: 3}
       propertyPath: _onEndEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8416387304484285276, guid: 634347772428d974e83b1b8dda2e213c, type: 3}
       propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.size
