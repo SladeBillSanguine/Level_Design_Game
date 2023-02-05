@@ -1634,6 +1634,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 355606781}
+    - target: {fileID: 1350827299361128023, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _invType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439917921860252247, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _invType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4488064540250049341, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1694,6 +1702,10 @@ PrefabInstance:
       propertyPath: _player
       value: 
       objectReference: {fileID: 1925550099}
+    - target: {fileID: 5740201971974424453, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _invType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6179257444435150426, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_Name
       value: Tutorial Shadowdoor
@@ -4204,6 +4216,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3942529532433799273, guid: c4bb8949b770f1846844b8fcf889bb83, type: 3}
   m_PrefabInstance: {fileID: 428670488}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &436410245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 436410247}
+  - component: {fileID: 436410246}
+  m_Layer: 0
+  m_Name: Post-Processing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &436410246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436410245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: c4ad11648d163a4408ca68e606773201, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
+--- !u!4 &436410247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436410245}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &456980976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11783,6 +11844,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1757487031}
+    - target: {fileID: 1350827299361128023, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _invType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439917921860252247, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _invType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4488064540250049341, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -11843,6 +11912,10 @@ PrefabInstance:
       propertyPath: _player
       value: 
       objectReference: {fileID: 1925550099}
+    - target: {fileID: 5740201971974424453, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _invType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6179257444435150426, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_Name
       value: Tutorial Shadowdoor
@@ -29013,6 +29086,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 163243327}
+    - target: {fileID: 1350827299361128023, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _invType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439917921860252247, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _invType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4488064540250049341, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -29073,6 +29154,10 @@ PrefabInstance:
       propertyPath: _player
       value: 
       objectReference: {fileID: 1925550099}
+    - target: {fileID: 5740201971974424453, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _invType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6179257444435150426, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_Name
       value: Tutorial Shadowdoor
@@ -33338,6 +33423,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 132250707}
+    - target: {fileID: 1350827299361128023, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _invType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439917921860252247, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _invType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4488064540250049341, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -33398,6 +33491,10 @@ PrefabInstance:
       propertyPath: _player
       value: 
       objectReference: {fileID: 1925550099}
+    - target: {fileID: 5740201971974424453, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
+      propertyPath: _invType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6179257444435150426, guid: 939eb6f2893b47346bbea3ff095b5c02, type: 3}
       propertyPath: m_Name
       value: Tutorial Shadowdoor
