@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: BlackRook
   _desc: 
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: bb17e83e9f691714b9c124c1a93bcb86, type: 3}

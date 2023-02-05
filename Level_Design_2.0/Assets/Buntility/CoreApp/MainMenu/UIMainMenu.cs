@@ -92,25 +92,25 @@ namespace Buntility.GameMenu
         }
         public void JuliansLevel()
         {
-            _gameStateHandler.SetGameScene("Julian`s Level");
+            _gameStateHandler.SetGameScene("Julians Level");
             NewGame();
         }
         public void AliciasLevel()
         {
-            _gameStateHandler.SetGameScene("Alicia's Level");
+            _gameStateHandler.SetGameScene("Alicia - UX");
             NewGame();
         }
 
         public void LisasLevel()
         {
-            _gameStateHandler.SetGameScene("Lisa´s Level");
+            _gameStateHandler.SetGameScene("Lisas Level");
             NewGame();
         }
 
         public void JuliusLevel()
         {
             //muss noch geändert werden
-            _gameStateHandler.SetGameScene("Lisa´s Level");
+            _gameStateHandler.SetGameScene("Julius Level");
             NewGame();
         }
 

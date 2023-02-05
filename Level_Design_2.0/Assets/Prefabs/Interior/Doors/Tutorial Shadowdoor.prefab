@@ -55,8 +55,8 @@ MonoBehaviour:
   _onStartEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8948011958535790969}
-        m_TargetAssemblyTypeName: LoadNextLevel, Assembly-CSharp
+      - m_Target: {fileID: 4636998225997345788}
+        m_TargetAssemblyTypeName: Buntility.GameMenu.LoadSzeneTest, Assembly-CSharp
         m_MethodName: LoadLevel3
         m_Mode: 1
         m_Arguments:
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _invType: 0
   _conditions:
-  - Key == 2
+  - StoryProgression == 3
 --- !u!1 &364625049647960068
 GameObject:
   m_ObjectHideFlags: 0
@@ -5052,7 +5052,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 39
+  m_VersionIndex: 51
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -5220,7 +5220,7 @@ MonoBehaviour:
   _interactGraphics: {fileID: 6179257444435150426}
   _autoTriggerInRange: 1
   _hideIfInvalid: 0
-  _unsubscribeOnInteract: 1
+  _unsubscribeOnInteract: 0
 --- !u!65 &1938558607840254515
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5246,14 +5246,14 @@ GameObject:
   - component: {fileID: 8517206158830613866}
   - component: {fileID: 8005604550306633809}
   - component: {fileID: 2780019118584596597}
-  - component: {fileID: 8948011958535790969}
+  - component: {fileID: 4636998225997345788}
   m_Layer: 0
   m_Name: Tutorial Shadowdoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4488064540250049341
 Transform:
   m_ObjectHideFlags: 0
@@ -5337,7 +5337,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &8948011958535790969
+--- !u!114 &4636998225997345788
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5346,9 +5346,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6179257444435150426}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da7ff809b0fee9e45880f08b18fdec77, type: 3}
+  m_Script: {fileID: 11500000, guid: 347aa32ec8dcd6b4daabb796c28cd44a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _oldScene: Tutorial
+  _player: {fileID: 0}
 --- !u!1 &6403712473661447105
 GameObject:
   m_ObjectHideFlags: 0
@@ -5404,8 +5406,8 @@ MonoBehaviour:
   _onStartEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8948011958535790969}
-        m_TargetAssemblyTypeName: LoadNextLevel, Assembly-CSharp
+      - m_Target: {fileID: 4636998225997345788}
+        m_TargetAssemblyTypeName: Buntility.GameMenu.LoadSzeneTest, Assembly-CSharp
         m_MethodName: LoadLevel1
         m_Mode: 1
         m_Arguments:
@@ -5456,9 +5458,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ab1557d7bb61d6459405942c4cdb357, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _invType: 0
+  _invType: 1
   _conditions:
-  - Key == 0
+  - StoryProgression == 1
 --- !u!1 &6444088633156826995
 GameObject:
   m_ObjectHideFlags: 0
@@ -5514,8 +5516,8 @@ MonoBehaviour:
   _onStartEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8948011958535790969}
-        m_TargetAssemblyTypeName: LoadNextLevel, Assembly-CSharp
+      - m_Target: {fileID: 4636998225997345788}
+        m_TargetAssemblyTypeName: Buntility.GameMenu.LoadSzeneTest, Assembly-CSharp
         m_MethodName: LoadLevel2
         m_Mode: 1
         m_Arguments:
@@ -5568,7 +5570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _invType: 0
   _conditions:
-  - Key == 1
+  - StoryProgression == 2
 --- !u!1 &7179459390826527703
 GameObject:
   m_ObjectHideFlags: 0
@@ -5624,8 +5626,8 @@ MonoBehaviour:
   _onStartEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8948011958535790969}
-        m_TargetAssemblyTypeName: LoadNextLevel, Assembly-CSharp
+      - m_Target: {fileID: 4636998225997345788}
+        m_TargetAssemblyTypeName: Buntility.GameMenu.LoadSzeneTest, Assembly-CSharp
         m_MethodName: LoadLevel4
         m_Mode: 1
         m_Arguments:
@@ -5678,4 +5680,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _invType: 0
   _conditions:
-  - Key == 3
+  - StoryProgression == 4
