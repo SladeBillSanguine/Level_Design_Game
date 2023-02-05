@@ -70865,7 +70865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _targetInv: 1
   _pushCommands:
-  - StoryProgression = 2
+  - StoryProgression = 1
 --- !u!1 &1765688092 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4486706742891074869, guid: d82cac64763fbaa4188494e9a3ef5666, type: 3}
@@ -98417,7 +98417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _invType: 1
   _conditions:
-  - StoryProgression == 2
+  - StoryProgression == 1
 --- !u!1 &5807076465465508619
 GameObject:
   m_ObjectHideFlags: 0
