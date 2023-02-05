@@ -2493,6 +2493,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6274031505098740772, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
+      propertyPath: m_text
+      value: Lazarus
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274031505098740772, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2556,9 +2560,17 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6274031506594141808, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8367528358867271446, guid: 924bcd2ccacb92246a9a4a45d55bf16b, type: 3}
     - target: {fileID: 6526827991797415547, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
       propertyPath: _gameScene
       value: Tutorial
+      objectReference: {fileID: 0}
+    - target: {fileID: 9095596413116363509, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cacdbf3df4166e343b1cce258f1b9a60, type: 3}
