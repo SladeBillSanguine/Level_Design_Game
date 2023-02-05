@@ -6499,6 +6499,7 @@ MonoBehaviour:
   _targetInv: 0
   _pushCommands:
   - Key += 1
+  - KeypadKey = 0
 --- !u!114 &1253491490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30099,7 +30100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _targetInv: 1
   _pushCommands:
-  - StoryProgression = 3
+  - StoryProgression = 2
 --- !u!114 &8350148367031383617
 MonoBehaviour:
   m_ObjectHideFlags: 0
