@@ -20,9 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lisas Level.unity
     guid: 793a7f35dc74b58418bdf405073041c6
-  - enabled: 1
-    path: Assets/Scenes/Metrics.unity
-    guid: bdb5a44ecc96df849805054ba8170c2a
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Julius Level.unity
     guid: 1045b560cce4aea428c7601b7f2b0087

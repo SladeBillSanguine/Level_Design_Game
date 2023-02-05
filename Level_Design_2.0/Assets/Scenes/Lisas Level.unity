@@ -732,7 +732,7 @@ MonoBehaviour:
   - dProgress = 0
   - dJarFullness = 0
   - dBedroomProgress = 0
-  - StoryProgression = 4
+  - StoryProgression = 3
 --- !u!1 &226315173
 GameObject:
   m_ObjectHideFlags: 0

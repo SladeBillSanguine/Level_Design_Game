@@ -11,10 +11,11 @@ namespace Buntility.Inventory
       
         public List<InvItemSO> inventory = new List<InvItemSO>();
 
-        [SerializeField] public Transform inventoryTransform;
+        [SerializeField] public RectTransform inventoryTransform;
+        
         [SerializeField] public GameObject inventoryContainer;
 
-        float y = 375f;
+        float y = 500f;
 
         // Start is called before the first frame update
         void Start()
@@ -53,7 +54,7 @@ namespace Buntility.Inventory
                 {
                     GameObject.Destroy(child.gameObject);
                 }
-             y = 375f;
+             y = 500f;
         }
 
        
