@@ -56,4 +56,12 @@ public class DoorAnimation : MonoBehaviour
         PlayDoorCloseAudio();
     }
   }
+
+  public void PlayCloseSilent()
+  {
+    if (animator.GetBool("isOpen") == false)
+    {
+        animator.SetBool("isOpen", true);
+    }
+  }
 }

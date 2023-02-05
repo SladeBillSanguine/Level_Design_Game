@@ -6260,7 +6260,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh263054
+  m_Name: pb_Mesh154738
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13466,7 +13466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8444351803879852179, guid: 0729bae65ff78e74b9a5f6ee8ac34981, type: 3}
       propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
-      value: PlayClose
+      value: PlayCloseSilent
       objectReference: {fileID: 0}
     - target: {fileID: 8444351803879852179, guid: 0729bae65ff78e74b9a5f6ee8ac34981, type: 3}
       propertyPath: _onStartEvent.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
